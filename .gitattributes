@@ -63,4 +63,4 @@
 #*.RTF   diff=astextplain
 
 ###############################################################################
-*.rb linguist-language=C#
+linguist-language=C#
