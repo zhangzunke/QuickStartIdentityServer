@@ -1,0 +1,67 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{68E082AD-C618-4870-B690-2BA5134A1ED4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{F494AC48-77C1-4BD1-9EF8-253B954E707D}"
+	ProjectSection(SolutionItems) = preProject
+		global.json = global.json
+	EndProjectSection
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "QuickStartIdentityServer", "src\QuickStartIdentityServer\QuickStartIdentityServer.xproj", "{278B16A1-0DE4-4AD3-82D4-E770C6EFDE42}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "Api", "src\Api\Api.xproj", "{46FC8781-8231-48DC-BD85-8A07E2F09ED4}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "Client", "src\Client\Client.xproj", "{5D6A1D01-C1C5-470B-8E44-CD5167A1E2D7}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "MVCClient", "src\MVCClient\MVCClient.xproj", "{5EAB7C62-1224-4DE8-8CC1-6000717D289C}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "IdentityServerWithAspNetIdentity", "src\IdentityServerWithAspNetIdentity\IdentityServerWithAspNetIdentity.xproj", "{AF6F448F-86E0-48FA-BEAD-161F0816F210}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "JavaScriptClient", "src\JavaScriptClient\JavaScriptClient.xproj", "{213A2540-C258-4CA1-B35E-7D34DF8F3596}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{278B16A1-0DE4-4AD3-82D4-E770C6EFDE42}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{278B16A1-0DE4-4AD3-82D4-E770C6EFDE42}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{278B16A1-0DE4-4AD3-82D4-E770C6EFDE42}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{278B16A1-0DE4-4AD3-82D4-E770C6EFDE42}.Release|Any CPU.Build.0 = Release|Any CPU
+		{46FC8781-8231-48DC-BD85-8A07E2F09ED4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{46FC8781-8231-48DC-BD85-8A07E2F09ED4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{46FC8781-8231-48DC-BD85-8A07E2F09ED4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{46FC8781-8231-48DC-BD85-8A07E2F09ED4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5D6A1D01-C1C5-470B-8E44-CD5167A1E2D7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5D6A1D01-C1C5-470B-8E44-CD5167A1E2D7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5D6A1D01-C1C5-470B-8E44-CD5167A1E2D7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5D6A1D01-C1C5-470B-8E44-CD5167A1E2D7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5EAB7C62-1224-4DE8-8CC1-6000717D289C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5EAB7C62-1224-4DE8-8CC1-6000717D289C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5EAB7C62-1224-4DE8-8CC1-6000717D289C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5EAB7C62-1224-4DE8-8CC1-6000717D289C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AF6F448F-86E0-48FA-BEAD-161F0816F210}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AF6F448F-86E0-48FA-BEAD-161F0816F210}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AF6F448F-86E0-48FA-BEAD-161F0816F210}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AF6F448F-86E0-48FA-BEAD-161F0816F210}.Release|Any CPU.Build.0 = Release|Any CPU
+		{213A2540-C258-4CA1-B35E-7D34DF8F3596}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{213A2540-C258-4CA1-B35E-7D34DF8F3596}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{213A2540-C258-4CA1-B35E-7D34DF8F3596}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{213A2540-C258-4CA1-B35E-7D34DF8F3596}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{278B16A1-0DE4-4AD3-82D4-E770C6EFDE42} = {68E082AD-C618-4870-B690-2BA5134A1ED4}
+		{46FC8781-8231-48DC-BD85-8A07E2F09ED4} = {68E082AD-C618-4870-B690-2BA5134A1ED4}
+		{5D6A1D01-C1C5-470B-8E44-CD5167A1E2D7} = {68E082AD-C618-4870-B690-2BA5134A1ED4}
+		{5EAB7C62-1224-4DE8-8CC1-6000717D289C} = {68E082AD-C618-4870-B690-2BA5134A1ED4}
+		{AF6F448F-86E0-48FA-BEAD-161F0816F210} = {68E082AD-C618-4870-B690-2BA5134A1ED4}
+		{213A2540-C258-4CA1-B35E-7D34DF8F3596} = {68E082AD-C618-4870-B690-2BA5134A1ED4}
+	EndGlobalSection
+EndGlobal
